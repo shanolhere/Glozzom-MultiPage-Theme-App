@@ -1,0 +1,44 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+nav {
+  border-bottom: rgb(192, 72, 72, 0.8) 3px solid;
+}
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+.navbar-item.active .nav-link.active {
+  /* border-left: 2px solid rgb(72, 0, 72, 0.8); */
+  color: #fff;
+}
+.carousel-item {
+  height: 89vh;
+}
+
+.carousel-image-1 {
+  background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(192, 72, 72, 0.8)),
+    url("../img/image1.jpg");
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(192, 72, 72, 0.8)),
+    url("../img/image2.jpg");
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(192, 72, 72, 0.8)),
+    url("../img/image3.jpg");
+  background-size: cover;
+}
